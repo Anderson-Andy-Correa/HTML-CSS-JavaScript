@@ -33,6 +33,28 @@ button {
   line-height: 125%;
 }
 
+form{
+  display: flex;
+}
+
+.days{
+  display: flex;
+  gap: 48px;
+  margin-left: 32px;
+}
+
+.day{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.day div{
+  margin-bottom: 8px;
+
+  
+}
+
 input{
   appearance: none;
   -webkit-appearance: none;
@@ -46,9 +68,11 @@ input{
   background-color: #181818;
 }
 
+/* PSEUDO SELECTOR */
 input:checked {
   background-color: #8b5cf6;
   /* tailwind/violet/400 */
+  border: 2px solid #a78bfa;
 
   
 }
